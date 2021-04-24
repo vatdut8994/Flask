@@ -11,4 +11,4 @@ def summision():
         total=a+b
         return render_template('untitled.html',card=total)
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
